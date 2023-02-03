@@ -1,0 +1,23 @@
+ function vo = mtimes(a, vi)
+%	MRI "forward projection" y=A*x and backprojection x = (A')*y
+
+if a.is.empty
+	error empty
+end
+
+AA = a.A;
+MM1 = a.mask1;
+MM2 = a.mask2;
+
+
+
+
+if ~a.is.transpose
+    
+        vo = AA * (MM1(:) .* vi(:)) + AA * (MM2(:) .* vi(:));
+        vo = vo(:);
+else
+    
+        vi = vi(:);        
+        vo = MM1(:) .* (AA' * vi(:)) + MM2(:) .* (AA' * vi(:));   
+end

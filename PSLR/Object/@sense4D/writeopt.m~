@@ -1,0 +1,8 @@
+function options = writeopt(lambda,cgtol,cgmaxit,beta,stop,iter)
+options.lambda_ls = lambda;
+options.cgtol = cgtol;
+options.cgtol = cgtol;
+options.cgtol = cgtol;
+options.cgtol = cgtol;
+
+end
