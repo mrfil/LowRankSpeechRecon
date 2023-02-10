@@ -45,8 +45,8 @@ classdef Robj4D
 %		R = Robject(mask, 'beta', 2^7);
 %
 % Copyright 2004-11-14, Jeff Fessler, The University of Michigan
-% Copyright 2019-02-18, Alex Cerjanic, University of Illinois at
-% Urbana-Champaign
+% Copyright 2019-02-18, Alex Cerjanic, University of Illinois at Urbana-Champaign
+% Copyright 2023-02-10, Riwei Jin, University of Illinois at Urbana-Champaign
 % Modified to use modern MATLAB class object system for compatibility
 
     properties
