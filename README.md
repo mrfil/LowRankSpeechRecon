@@ -6,8 +6,6 @@ The package focus on the low-rank dynamic speech MRI reconstruction. Reference: 
 
 /Object: Robj4D: Regularization object. @sense4D: low-rank sense object. @lr-model:low-rank matrix. @MaskSep: Mask separation object for locally higher-rank reconstruction.
 
-/Utilities: ROVir and ROT. Reference:https://onlinelibrary.wiley.com/doi/full/10.1002/mrm.28706
-
 Note that: This package requires RecoIL package. Link:https://github.com/mrfil/RecoIL
 It also requires mapVBVD package. Link:https://github.com/cm212/mapVBVD
 
